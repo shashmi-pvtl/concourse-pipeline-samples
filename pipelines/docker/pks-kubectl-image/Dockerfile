@@ -1,4 +1,4 @@
-FROM concourse/bosh-cli:latest
+FROM ubuntu
 
 COPY \
        kubectl \
