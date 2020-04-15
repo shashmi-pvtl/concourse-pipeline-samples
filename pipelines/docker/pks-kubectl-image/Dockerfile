@@ -1,7 +1,6 @@
-FROM cloudfoundry/cflinuxfs2
+FROM ubuntu
 
 COPY \
-       pks \
        kubectl \
        jq \
        /usr/local/bin/
